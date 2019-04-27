@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trabajo.activity_3.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="50dp"
+        android:fontFamily="casual"
+        android:text="Primer Activity"
+        android:textAlignment="center"
+        android:textSize="70dp" />
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="304dp"
+        android:layout_height="131dp"
+        android:layout_x="54dp"
+        android:layout_y="348dp"
+        android:text="@string/botoni"
+        android:textSize="16pt"/>
+
+</AbsoluteLayout>
